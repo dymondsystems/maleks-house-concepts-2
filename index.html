@@ -496,5 +496,11 @@ mixpanel.people.set({ '$name': 'Jim',
 'plan' : 'Premium'
 // Add anything else about the user here
 });</script>
+
+	<script type="text/javascript">
+    mixpanel.track_links("#page1 a", "click nav link", {
+        "referrer": document.referrer
+    });
+</script>
 </body>
 </html>
