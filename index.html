@@ -489,5 +489,12 @@ mixpanel.init("00a6ef72de5d47b9a8f401e6707de150", {
 });
 </script>
 	<script>mixpanel.track_pageview({"page": "Pricing"});</script>
+	<script>mixpanel.identify('1234')
+ 
+mixpanel.people.set({ '$name': 'Jim',
+                      '$email': 'test@gmail.com',
+'plan' : 'Premium'
+// Add anything else about the user here
+});</script>
 </body>
 </html>
